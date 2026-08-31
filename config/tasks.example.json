@@ -1,72 +1,30 @@
-[
-  {
-    "timezone": "Asia/Shanghai",
-    "task_id": "fire-streak",
-    "targets": [
-      {
-        "name": "沈言.D",
-        "messages": [
-          {"type": "douyin_sticker", "sticker": "火焰"}
-        ]
-      },
-      {
-        "name": "幻幻",
-        "messages": [
-          {"type": "douyin_sticker", "sticker": "火焰"}
-        ]
-      },
-      {
-        "name": "䊻",
-        "messages": [
-          {"type": "douyin_sticker", "sticker": "火焰"}
-        ]
-      }
-    ],
-    "send_interval_seconds": {"min": 3, "max": 8},
-    "continue_on_error": true
+{
+  "timezone": "Asia/Shanghai",
+  "task_id": "fire-streak",
+  "targets": [
+    {
+      "name": "沈言.D",
+      "messages": [
+        {"type": "douyin_sticker", "sticker": "火焰"}
+      ]
+    },
+    {
+      "name": "幻幻",
+      "messages": [
+        {"type": "douyin_sticker", "sticker": "火焰"}
+      ]
+    },
+    {
+      "name": "䊻",
+      "messages": [
+        {"type": "douyin_sticker", "sticker": "火焰"}
+      ]
+    }
+  ],
+  "cron": "0 8,20 * * *",
+  "send_interval_seconds": {
+    "min": 3,
+    "max": 8
   },
-  {
-    "timezone": "Asia/Shanghai",
-    "task_id": "morning-greet",
-    "cron": "0 8-11 * * *",
-    "targets": [
-      {
-        "name": "双倍心动~",
-        "messages": [
-          {
-            "type": "random",
-            "choices": [
-              {"type": "douyin_sticker", "sticker": "早"},
-              {"type": "douyin_sticker", "sticker": "续火花"},
-              {"type": "douyin_sticker", "sticker": "比心"}
-            ]
-          }
-        ]
-      }
-    ],
-    "send_interval_seconds": {"min": 3, "max": 8},
-    "continue_on_error": true
-  },
-  {
-    "timezone": "Asia/Shanghai",
-    "task_id": "evening-greet",
-    "cron": "0 18-22 * * *",
-    "targets": [
-      {
-        "name": "双倍心动~",
-        "messages": [
-          {
-            "type": "random",
-            "choices": [
-              {"type": "douyin_sticker", "sticker": "晚安"},
-              {"type": "douyin_sticker", "sticker": "躺平"},
-              {"type": "douyin_sticker", "sticker": "续火花"}
-            ]
-          }
-        ]
-      }
-    ],
-    "send_interval_seconds": {"min": 3, "max": 8},
-    "continue_on_error": true
-  }
-]
+  "continue_on_error": true
+}
