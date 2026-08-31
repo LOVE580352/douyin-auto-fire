@@ -3,32 +3,61 @@
   "task_id": "daily-streak",
   "targets": [
     {
-      "name": "测试好友A",
-      "messages": [
-        {
-          "type": "text",
-          "content": "今天也要开心"
-        },
-        {
-          "type": "douyin_sticker",
-          "sticker": "比心"
-        }
-      ]
-    },
-    {
-      "name": "测试好友B",
+      "name": "沈言.D",
       "messages": [
         {
           "type": "random",
           "choices": [
-            {
-              "type": "text",
-              "content": "早上好"
-            },
-            {
-              "type": "douyin_sticker",
-              "sticker": "开心"
-            }
+            {"type": "text", "content": "续火花"},
+            {"type": "text", "content": "火花续一下"},
+            {"type": "text", "content": "别让火花断了"},
+            {"type": "text", "content": "保持火花"},
+            {"type": "douyin_sticker", "sticker": "比心"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "幻幻",
+      "messages": [
+        {
+          "type": "random",
+          "choices": [
+            {"type": "text", "content": "续火花"},
+            {"type": "text", "content": "火花续一下"},
+            {"type": "text", "content": "别让火花断了"},
+            {"type": "text", "content": "保持火花"},
+            {"type": "douyin_sticker", "sticker": "比心"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "䊻",
+      "messages": [
+        {
+          "type": "random",
+          "choices": [
+            {"type": "text", "content": "续火花"},
+            {"type": "text", "content": "火花续一下"},
+            {"type": "text", "content": "别让火花断了"},
+            {"type": "text", "content": "保持火花"},
+            {"type": "douyin_sticker", "sticker": "比心"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "双倍心动~",
+      "messages": [
+        {
+          "type": "random",
+          "choices": [
+            {"type": "text", "content": "续火花"},
+            {"type": "text", "content": "火花续一下"},
+            {"type": "text", "content": "别让火花断了"},
+            {"type": "text", "content": "保持火花"},
+            {"type": "douyin_sticker", "sticker": "比心"}
           ]
         }
       ]
