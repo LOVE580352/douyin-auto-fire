@@ -6,14 +6,8 @@
       "name": "沈言.D",
       "messages": [
         {
-          "type": "random",
-          "choices": [
-            {"type": "text", "content": "续火花"},
-            {"type": "text", "content": "火花续一下"},
-            {"type": "text", "content": "别让火花断了"},
-            {"type": "text", "content": "保持火花"},
-            {"type": "douyin_sticker", "sticker": "比心"}
-          ]
+          "type": "douyin_sticker",
+          "sticker": "火焰"
         }
       ]
     },
@@ -21,14 +15,8 @@
       "name": "幻幻",
       "messages": [
         {
-          "type": "random",
-          "choices": [
-            {"type": "text", "content": "续火花"},
-            {"type": "text", "content": "火花续一下"},
-            {"type": "text", "content": "别让火花断了"},
-            {"type": "text", "content": "保持火花"},
-            {"type": "douyin_sticker", "sticker": "比心"}
-          ]
+          "type": "douyin_sticker",
+          "sticker": "火焰"
         }
       ]
     },
@@ -36,14 +24,8 @@
       "name": "䊻",
       "messages": [
         {
-          "type": "random",
-          "choices": [
-            {"type": "text", "content": "续火花"},
-            {"type": "text", "content": "火花续一下"},
-            {"type": "text", "content": "别让火花断了"},
-            {"type": "text", "content": "保持火花"},
-            {"type": "douyin_sticker", "sticker": "比心"}
-          ]
+          "type": "douyin_sticker",
+          "sticker": "火焰"
         }
       ]
     },
@@ -51,14 +33,8 @@
       "name": "双倍心动~",
       "messages": [
         {
-          "type": "random",
-          "choices": [
-            {"type": "text", "content": "续火花"},
-            {"type": "text", "content": "火花续一下"},
-            {"type": "text", "content": "别让火花断了"},
-            {"type": "text", "content": "保持火花"},
-            {"type": "douyin_sticker", "sticker": "比心"}
-          ]
+          "type": "douyin_sticker",
+          "sticker": "火焰"
         }
       ]
     }
